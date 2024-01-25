@@ -1,0 +1,431 @@
+.nav_on_top{
+    display: flex;
+    justify-content: space-around; 
+    width: 100%;
+    background-color: #fff; 
+    height: 60px; 
+    position: fixed;
+    z-index: 3;
+    margin-top: -22px;
+   
+}
+
+a img{
+    height: 40px;
+    padding-top: 15px;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+   margin: 15px;
+  
+   border-radius: 5px;
+   border: 0px;
+}
+.first{
+    background-color: rgb(225, 46, 76);
+    font-size:10px;
+    color: aliceblue;
+}
+.second,.third,.fourth,.fifth{
+    color: black;
+    font-size:10px;
+    background-color: white;
+    
+}
+.second:hover,.third:hover{
+    background-color: rgb(235, 228, 233);
+    border-radius: 5px;
+   
+}
+
+.nav_middle button img{
+    height: 10px;
+   padding: 5px;
+   padding-left: 20px;
+    text-align: center;
+    
+}
+
+.nav_right  button img{
+    height: 15px;
+    margin: 15px;
+    
+}
+.nav_right button{
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+}
+.nav_right{
+    display: flex;
+    
+}
+.main_img {
+    height: 400px;
+    width: 100vw;
+   
+    background-image: url("./images/HeroImageV2_C.png");
+    background-size: cover;
+    
+    
+}
+.main_img h1{
+    color: aliceblue;
+    
+    padding-left: 22%;
+    padding-top: 8%;
+}
+.change_img img{
+    height: 20px;
+    position: relative;
+    left: -7px;
+    top: 35px;
+    border-radius: 40%;
+   
+}
+.change_img img:hover{
+    box-shadow: 0px 0px 3px ;
+}
+
+.hero_div{
+    height: 100px;
+    width: 65vw;
+    background-color: rgb(250, 250, 253);
+    /* margin: 100px; */
+    margin-left: 210px;
+    border-radius: 15px;
+    display: flex;
+    
+    
+
+}
+.hero1{
+    border-right: 1px solid rgb(186, 179, 179);
+   
+    height: 95px;
+    width: 16vw;
+    
+}
+.hero1 span img{
+    height: 20px;
+}
+.hero1 span {
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+.search_buses{
+    background-color: rgb(184, 13, 41);
+    position: relative;
+    height: 100px;
+    width: 16vw;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    
+    
+}
+.search_buses h2{
+    margin: 15px;
+    margin-top: 30px;
+    color: aliceblue;
+}
+
+/* trending */
+.trending{
+    height: fit-content;
+    width: 70vw;
+    background-color: rgb(244, 244, 250);
+    border-radius: 15px;
+    position: relative;
+    top: -50px;
+    left: 200px;
+    overflow-y: scroll;
+    box-shadow: 1px 1px 1px 1px ;
+}
+.trending h2{
+    color: rgb(55, 62, 68);
+    text-align: center;
+}
+.trending_cards{
+ 
+  display: flex;
+  width: 1140px;
+  
+  
+}
+.trendind_card1{
+    height: fit-content;
+    width: fit-content;
+    min-width: 200px;
+    display: flex;
+    border: 1px solid red;
+    background-color: aqua;
+   margin: 5px;
+   /* margin-right: 10px; */
+   border-radius: 10px;
+  object-fit: fill;
+  
+}
+.trendind_card1 img{
+    position: relative;
+    top: 30px;
+    height: 60PX;
+    padding-left: 5px;
+    border-radius: 50%;
+}
+.bus_button button{
+    height: fit-content;
+    opacity: 0.6;
+    margin: 5%;
+    border: 1pxsolid black;
+    border-style: dashed;
+}
+.bus_button{
+    padding-left: 2%;
+}
+.first1{
+    background-image: linear-gradient(blue, rgb(40, 24, 93));  
+
+}
+.second2{
+    background-image: linear-gradient(rgb(20, 116, 25), rgb(114, 114, 17));  
+
+}
+.third3{
+    background-image: linear-gradient(rgb(151, 45, 13), yellow);  
+}
+.fourth4{
+    background-image: linear-gradient(rgb(106, 11, 54), rgb(180, 26, 154));  
+}
+.fifth5{
+    background-image: linear-gradient(rgb(214, 22, 22), rgb(146, 7, 139));  
+}
+.imgCard{
+    margin-left: 3cm;
+    position: relative;
+}
+/* car renting */
+.car_renting{
+    height: fit-content;
+    width: 70vw;
+   
+    border-radius: 15px;
+    position: relative;
+    /* top: -50px; */
+    left: 200px;
+    margin-top: 20px;
+    display: flex;
+}
+.more_than_bus{
+    height:fit-content;
+    width: 80%;
+     
+}
+.car-img {
+    background-image: url(./images/aboutUsImg.svg);
+
+}
+
+.car-img img{
+    /* object-fit: fit; */
+    height: fit-content;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 150px;
+}
+.two_buttons{
+    display: flex;
+}
+.renting {
+    padding: 3px;
+    
+}
+.renting:hover{
+    background-color: rgb(193, 222, 247);
+    border-radius: 10px;
+}
+.cab_renting{
+    border-bottom: 2px solid rgb(160, 37, 37);
+    
+}
+ul li{
+  list-style-type: none;
+  
+}
+ul li img{
+    height: 30px;
+    margin-top: 10px;
+
+  }
+  ul li span{
+    margin: 10%;
+    
+  }
+  ul button{
+    height: 30px;
+    background-color: rgb(214, 30, 30);
+    color: aliceblue;
+    padding-top: 8px;
+  }
+  ul button:hover{
+    background-color: rgb(153, 23, 23);
+  }
+   .pink_div {
+    height: 290px;
+    width: 70%;
+   
+   position: relative;
+   left: 5.6cm;
+   top: 8px;
+  } 
+  .pink_div {
+    background-image: url(./images/appInstallbg.svg);
+    background-size: 100% 100%;
+  }
+  .arrangment{
+    display: flex;
+  
+  }
+  .white_div{
+    height: fit-content;
+    width: 230px;
+    background-color: aliceblue;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: -10px;
+  }
+  .white_div ul li img{
+    height: 14px;
+  }
+  .arrangment div {
+    margin-left: 15px;
+  
+  }
+  .rating{
+    display: flex;
+  }
+  .rating h3,p,h4{
+    font-size: small;
+  }
+  .primo{
+    /* background-color: blue; */
+  }
+  
+  .primo_image img{
+    height: 130px;
+    margin-left: 11cm;
+    margin-top: 2cm;
+
+
+  }
+  .cards_inside_primo{
+    position: relative;
+    display: flex;
+     width: fit-content; 
+    
+    margin-left: 6cm;
+    /* background-color: blue;  */
+    height: 130px;  
+    /* make it fitcontent */
+
+  }
+  .cards1{
+    background-color: aqua;
+    height:110px;
+    width: 230px;
+    margin: 10px;
+    position: relative;
+    top: 10px;
+    background-image: radial-gradient(rgb(43, 43, 242),rgb(207, 29, 207));
+    border-radius: 12px;
+  }
+  .cards1 > img{
+    height: 50%;
+    float: left;
+    margin: 30px 10px 0px 20px;   
+  }
+  /* .partner with */
+  .partnered_with{
+    
+    margin: 60px 90px 0px 100px;
+  }
+  .different_rtc{
+    display: flex;
+  }
+  .different_rtc img{
+    height: 70px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 50%;
+  }
+  .company{
+    text-align: center;
+    cursor: pointer;
+    
+  }
+  .different_private_bus_operator{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .travels{
+   margin: 10px 20px 10px 10px;
+    height: 30px;
+  
+  }
+  .travels p{
+    margin: 10px 20px 10px 10px;
+     height: 30px;
+   
+   }
+  .travels:hover{
+    background-color: rgb(230, 221, 221);
+    border-radius: 10px; 
+  
+  }
+  .questions{
+    display: flex;
+    gap: 20px;
+  }
+  .questions :hover{
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+  }
+  .different_questions{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+    height: 40px;
+    
+  }
+ .different_questions:hover{
+box-shadow: 1px 1px 1px 1px;
+ }
+ .different_questions p{
+  display: inline;
+  margin: 30px;
+  
+ 
+ }
+ .different_questions span{
+  float:right;
+  margin: 10px;
+ }
+.global_presence {
+  display: flex;
+}
+.company img{
+  margin: 20px;
+}
+.list{
+ 
+  display: flex;
+    gap: 30px;
+    font-size: small;
+    color: gray;
+    justify-content: space-between;
+}
+.social{
+  float: right;
+}
